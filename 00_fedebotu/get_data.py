@@ -5,20 +5,6 @@ import archeo_lib as al
 
 FEDEBOTU = "fedebotu"
 
-TSV_URLS = {
-    al.iclr_2022: {
-        al.INITIAL:
-        "https://raw.githubusercontent.com/fedebotu/ICLR2022-OpenReviewData/bd51a36c6b225df1a3e5426584ff5eee14963554/ratings.tsv",
-        al.FINAL:
-        "https://raw.githubusercontent.com/fedebotu/ICLR2022-OpenReviewData/master/ratings.tsv"
-    },
-    al.iclr_2023: {
-        al.INITIAL:
-        "https://raw.githubusercontent.com/fedebotu/ICLR2023-OpenReviewData/main/data/iclr2023_20221105.csv",
-        al.FINAL:
-        "https://raw.githubusercontent.com/fedebotu/ICLR2023-OpenReviewData/main/data/iclr2023_20230210.csv"
-    }
-}
 
 def get_2022():
 
