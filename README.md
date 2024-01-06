@@ -8,7 +8,7 @@ This repository collates review information from the data sources of these analy
 
 | Source                                                                                                   | Scraping method | Format | Rating format  | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |----------------------------------------------------------------------------------------------------------|-----------------|--------|----------------|------|------|------|------|------|------|
-| [Federico Botu](https://github.com/fedebotu/ICLR2023-OpenReviewData/tree/main)                           | OpenReview      | CSV    | Lists          |      |      |      | Y    |      |      |
+| [Federico Botu](https://github.com/fedebotu/ICLR2023-OpenReviewData/tree/main)                           | OpenReview      | CSV    | Lists          |      |      |      |      | Y    | Y    |
 | [Dong Zhou](https://github.com/evanzd/ICLR2021-OpenReviewData/tree/master)                               | HTML            | TSV    | Lists          |      |      |      | Y    |      |      |
 | [Bastian Rieck](https://github.com/Pseudomanifold/iclr-analysis/)                                        | OpenReview API  |        | Review objects |      |      | Y    | Y    |      |      |
 | [Horace He](https://github.com/Chillee/OpenReviewExplorer/tree/c419b5d459ad9292b7df045052a1f4b4966a0399) | HTML            | JSON   | Lists          | Y    | Y    | Y    |      |      |      |
