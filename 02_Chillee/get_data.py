@@ -72,10 +72,11 @@ def convert_rows(conference, ratings, initial_date, final_date):
 
 def main():
 
+    rows = []
     for conference, conf_tuple in CONF_TUPLES.items():
-        k = get_conference(conference, conf_tuple)
-        for x in k[:10]:
-            print(x)
+        rows += get_conference(conference, conf_tuple)
+
+    al.write_csv(rows)
 
 
 if __name__ == "__main__":

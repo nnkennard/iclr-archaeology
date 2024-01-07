@@ -84,12 +84,13 @@ def convert_rows(conference, ratings, initial_date, final_date, add_one):
                 )
     return rows
 
-
-
 def main():
 
-    k = get_2022()
-    k = get_2023()
+
+    rows = get_2022()
+    rows += get_2023()
+
+    al.write_csv(rows)
 
 if __name__ == "__main__":
     main()

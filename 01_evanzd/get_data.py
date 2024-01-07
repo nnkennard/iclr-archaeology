@@ -61,9 +61,8 @@ def get_2021():
 
 def main():
 
-    k = get_2021()
-    for x in k[:10]:
-        print(x)
+    rows = get_2021()
+    al.write_csv(rows)
 
 if __name__ == "__main__":
     main()
