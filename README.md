@@ -23,3 +23,8 @@ Unfortunately there seem to be some errors in this data. The ratings for ICLR 20
 | [RUzSobdYy0V](https://openreview.net/forum?id=RUzSobdYy0V) | **[1, 1, 1, 1]** | [5, 6, 8]       |
 | [N3kGYG3ZcTi](https://openreview.net/forum?id=N3kGYG3ZcTi) | [5, 6, 8]    | [3, 6, 3, 1]    |
 | [tmIiMPl4IPa](https://openreview.net/forum?id=tmIiMPl4IPa) | [3, 6, 3, 1] | [8, 6, 5, 8, 6] |
+
+## Pseudomanifold
+
+ICLR 2019 reviews were added Nov 7 2019 so should reflect the final review texts and scores.
+ICLR 2020 reviews were added Nov 8 2019 so should reflect initial review texts and scores.
