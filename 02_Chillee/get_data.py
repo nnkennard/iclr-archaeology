@@ -47,10 +47,8 @@ def get_conference(conference, conf_tuple):
         with open(filenames[version], 'r') as f:
             obj = json.load(f)
             for forum in obj:
-                pre_forum_id = forum['url'].split("?")[-1]
-                assert pre_forum_id.startswith("id=")
-                forum_id = pre_forum_id[3:]
-                ratings[version][forum_id] = forum['ratings']
+                ratings[version][
+                al.url_to_id(forum['url'])] = forum['ratings']
 
     return convert_rows(conference, ratings, conf_tuple.initial_date,
                         conf_tuple.final_date)

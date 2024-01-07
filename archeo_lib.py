@@ -19,3 +19,8 @@ def get_file(url, filename):
     r = requests.get(url)
     with open(filename, 'wb') as f:
         f.write(r.content)
+
+def url_to_id(url):
+    pre_forum_id = url.split("?")[-1]
+    assert pre_forum_id.startswith("id=")
+    return pre_forum_id[3:]
